@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    height: 550px;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 50px;
+    color: #e16262;
+    transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+h1.active {
+    color: #11144c;
+}
+
+#line {
+    height: 4px;
+    width: 0;
+    margin: 30px;
+    transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+#line.active {
+    width: 400px;
+    background: #fabc60;
+}
+
+button {
+    background: none;
+    border: #000 solid 1px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:active {
+    background: #000;
+    color: #fff;
+}
