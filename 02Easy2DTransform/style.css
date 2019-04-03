@@ -1,0 +1,53 @@
+body {
+    display: flex;
+}
+
+div {
+    height: 68px;
+    width: 60px;
+    line-height: 68px;
+    border: #048998 solid 1px;
+    margin: 30px;
+    text-align: center;
+    background: #e9e4e6;
+}
+
+#div2 {
+    transform: skew(30deg, 0);
+    -ms-transform: skew(30deg, 0);	/* IE 9 */
+    -webkit-transform: skew(30deg, 0);	/* Safari and Chrome */
+    -o-transform: skew(30deg, 0);	/* Opera */
+    -moz-transform: skew(30deg, 0);
+}
+
+#div3 {
+    transform: scale(.5, 1);
+    -ms-transform: scale(.5, 1);	/* IE 9 */
+    -webkit-transform: scale(.5, 1);	/* Safari 和 Chrome */
+    -o-transform: scale(.5, 1);	/* Opera */
+    -moz-transform: scale(.5, 1);
+}
+
+#div4 {
+    transform: rotate(45deg);
+    -ms-transform: rotate(45deg);	/* IE 9 */
+    -webkit-transform: rotate(45deg);	/* Safari 和 Chrome */
+    -o-transform: rotate(45deg);	/* Opera */
+    -moz-transform: rotate(45deg);
+}
+
+#div5 {
+    transform: translate(10px, 20px);
+    -ms-transform: translate(10px, 20px);	/* IE 9 */
+    -webkit-transform: translate(10px, 20px);	/* Safari 和 Chrome */
+    -o-transform: translate(10px, 20px);	/* Opera */
+    -moz-transform: translate(10px, 20px);
+}
+
+#div6 {
+    transform: skew(30deg, 0) scale(.5, 1) rotate(45deg) translate(10px, 20px);
+    -ms-transform: skew(30deg, 0) scale(.5, 1) rotate(45deg) translate(10px, 20px);	/* IE 9 */
+    -webkit-transform: skew(30deg, 0) scale(.5, 1) rotate(45deg) translate(10px, 20px);	/* Safari and Chrome */
+    -o-transform: skew(30deg, 0) scale(.5, 1) rotate(45deg) translate(10px, 20px);	/* Opera */
+    -moz-transform: skew(30deg, 0) scale(.5, 1) rotate(45deg) translate(10px, 20px);
+}
