@@ -1,0 +1,22 @@
+.wrapper {
+    position: relative;
+    width: 250px;
+    height: 350px;
+    transform: rotateY(0);
+    transform-style: preserve-3d;
+    transition: all 1s ease;    
+}
+
+#card1 {
+    position: absolute;
+    transform: rotateY(0);
+}
+
+#card2 {
+    position: absolute;
+    transform: rotateY(180deg);
+}
+
+.wrapper:hover {
+    transform: rotateY(180deg);
+}
